@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "http://facufernandez05.github.io/Linkify--Frontend",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
@@ -17,6 +18,7 @@
     "cropperjs": "^1.6.1",
     "forms": "^1.3.2",
     "framer-motion": "^10.16.4",
+    "gh-pages": "^6.0.0",
     "js-cookie": "^3.0.5",
     "react": "^18.2.0",
     "react-copy-to-clipboard": "^5.1.0",
