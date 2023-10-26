@@ -1,1 +1,0 @@
-import{r as a,l as n}from"./index-c362957b.js";var u=globalThis!=null&&globalThis.document?a.useLayoutEffect:a.useEffect;function b(t){let[o,e]=n(t.isOpen,t.defaultOpen||!1,t.onOpenChange);const s=a.useCallback(()=>{e(!0)},[e]),l=a.useCallback(()=>{e(!1)},[e]),c=a.useCallback(()=>{e(!o)},[e,o]);return{isOpen:o,setOpen:e,open:s,close:l,toggle:c}}export{b as $,u};
