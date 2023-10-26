@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Linkify--Frontend/'
+  base: 'http://facufernandez05.github.io/Linkify--Frontend'
 })
