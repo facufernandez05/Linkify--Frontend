@@ -1,0 +1,1 @@
+import{a as s}from"./baseUrl-32bae851.js";const t=e=>`${s}users/${e}/`,a=e=>`${s}user/${e}`,o=`${s}users/`,c=`${s}myprofile/`,n=`${s}user_delete/`,u=`${s}change_password/`,$=`${s}update_profile/`,d=`${s}search/`;export{a,$ as b,u as c,n as d,c as e,o as g,d as s,t as u};

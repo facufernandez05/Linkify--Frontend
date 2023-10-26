@@ -1,0 +1,1 @@
+import{a as o}from"./baseUrl-32bae851.js";const a=`${o}crear_publicacion/`,r=`${o}all_posts/`,c=s=>`${o}all_posts/${s}/`,e=s=>`${o}publicaciones/${s}/comentarios/`,n=s=>`${o}user_post/${s}/`,l=s=>`${o}all_posts/${s}/like/`;export{c as a,r as b,a as c,e as d,n as g,l as p};
