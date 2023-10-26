@@ -47,7 +47,7 @@ function App () {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/frontend'>
 
       {loggedIn
         ? (
