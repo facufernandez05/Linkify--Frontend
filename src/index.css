@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btns-profile{
+        @apply cursor-pointer rounded-md md:px-4 bg-white text-black border-black md:border-2 font-bold transition-all
+        hover:opacity-80 px-2 py-1
+    }
+}
+
+body{
+    background-color: #15202B;
+    color: white;
+    padding: 0;
+    border: 0;
+}
+

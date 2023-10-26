@@ -1,0 +1,26 @@
+/* Estilo base para tu elemento li */
+.border {
+  position: relative;
+  padding: 10px;
+  transition: all 0.3s;
+  overflow: hidden;
+  color: rgb(51, 51, 51);
+}
+
+/* Pseudo-elemento ::before para el efecto de transición */
+.border::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Posición inicial en el centro */
+  width: 0;
+  height: 2px; /* Ancho y altura del borde inferior */
+  background-color: #3498db; /* Color deseado para el borde */
+  transition: all 0.3s;
+}
+
+/* Efecto de transición al pasar el cursor */
+.border:hover::before {
+  width: 100%; /* Ancho completo para abrir a la izquierda y la derecha */
+  left: 0; /* Dejar el borde en el centro */
+}
