@@ -5,6 +5,8 @@
   "type": "module",
   "homepage": "http://facufernandez05.github.io/Linkify--Frontend",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages",
     "dev": "vite --host",
     "build": "vite build",
     "lint": "standard",
